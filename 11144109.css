@@ -1,20 +1,39 @@
-*{
-    padding:0px;
+nav{
+    background-color:#D6CCC2;
+    font-family: Arial;
+    text-align:center;
+}
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    text-decoration: none;  /* 移除超連結底線 */
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav > ul {
+    list-style: none;   /* 移除項目符號 */
+    border-radius: 10px;
     margin: 0px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
-.item_img img{
-    width: 100%;
+nav a:hover {
+    background-color: #D6CCC2;
+    color: #867b70;
 }
-.item{
-    padding:0px 5px;
-}
-
-.array{
-    width:960px;
+.nav-flex {
     display: flex;
+    justify-content: center;
 }
-
-.text_cost{
-    width:flex;
-    justify-content: space-between;
+.nav-flex li {
+    margin: 0; /* 清除原本的 margin */
+    flex-grow: 0;
+}
+.inline-block-nav {
+    text-align: center;
+    font-size: 0;   /* 移除 <li> 之間的空隙 */
+}
+.inline-block-nav > li {
+    display: inline-block;
 }
