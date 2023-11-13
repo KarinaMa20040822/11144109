@@ -1,6 +1,13 @@
+.outside {
+    width: 100%;
+    border-radius: 6px;
+    margin: auto;
+    position: relative;
+    background-color: #F8F9FA;
+}
 nav{
     background-color:#D6CCC2;
-    font-family: Arial;
+    font-family: "Playfair Display", serif;
     text-align:center;
 }
 nav a {
@@ -10,6 +17,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
+    letter-spacing: 1px;
 }
 nav > ul {
     list-style: none;   /* 移除項目符號 */
@@ -32,8 +40,69 @@ nav a:hover {
 }
 .inline-block-nav {
     text-align: center;
-    font-size: 0;   /* 移除 <li> 之間的空隙 */
+    font-size: 2;   /* 移除 <li> 之間的空隙 */
 }
 .inline-block-nav > li {
     display: inline-block;
+}
+.myphoto {
+    border-radius: 50%; /* 將圓角設置為一半的寬度和高度 */
+    overflow: hidden; /* 保證圖片在圓形區域內顯示 */
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 65px;
+}
+.about{
+    background-color: #F8F9FA;
+    display: flex;
+}
+.aboutme1 {
+    width:30%;
+}
+.aboutme2{
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.title1{
+    font-size: 20px;
+    margin-right: 600px;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    margin-top: -30px;
+    color:#C9ADA7;
+}
+.horizontal-line {
+    border-top: 3px solid #D6CCC2; /* 1像素的實線，可以根據需要調整線的寬度、顏色等 */
+    margin: 10px 600;
+    margin-top: 15px;
+    width: 40%;
+}
+.name{
+    margin-left: 110px;
+    font-size: 25px;
+    font-family: "Noto Serif TC", serif;
+    color:#C9ADA7;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.word1{
+    position:relative;
+    margin-right: 500px;
+    margin-top: 50px;
+    color:#C9ADA7;
+    font-size: 20px;
+    line-height: 1px;
+    text-align: left;
+}
+.icon {
+    width: 40px;
+    margin-top: 30px;
+    margin-left: -320px;
+    margin-right: 330px;
+    outline:none;
+}
+.skills{
+    background-color: #D6CCC2;
+    
 }
