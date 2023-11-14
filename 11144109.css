@@ -107,8 +107,8 @@ nav a:hover {
     padding: 300px;
 }
 .vertical-line {
-    width: 11px; /* 设置线的宽度 */
-    height: 70px; /* 设置线的高度 */
+    width: 11px;
+    height: 70px; 
     background-color: #4A4E69; 
     margin-left: -130px;
     margin-top: -550px;
@@ -180,16 +180,98 @@ nav a:hover {
 }
 .title3{
     font-size: 40px;
-    color:#D3C1AF;
+    color:#867b70;
     font-family:"Playfair Display", serif;
     margin-top: -580px;
     margin-left: -850px;
     letter-spacing: 1.5px;
 }
 .vertical-line1{
-    width: 7px; /* 设置线的宽度 */
-    height: 70px; /* 设置线的高度 */
-    background-color: #D3C1AF; 
+    width: 7px; 
+    height: 70px; 
+    background-color: #867b70; 
     margin-left: -520px;
     margin-top: -60px;
+}
+.about{
+    display: flex;
+}
+.activities1{
+    width: 30%;
+    height: 300px;
+}
+.activities1_text{
+    width:40%;
+}
+.snowphoto{
+    height: auto;
+    width:600px;
+    margin-top: 20px;
+    margin-left: -450px;
+    border-radius: 5%;
+}
+.title3-1{
+    font-size: 30px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: 20px; 
+    margin-left: -550px; 
+}
+.word6{
+    font-size: 30px;
+    color:#bea993;
+    font-family:"Playfair Display", serif;
+    margin-top: -430px; 
+    margin-left: -500px; 
+}
+.word7{
+    font-size: 30px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: -230px; 
+    margin-left: 300px; 
+}
+.word8{
+    font-size: 30px;
+    color:#bea993;
+    font-family:"Playfair Display", serif;
+    margin-top: 50px; 
+    margin-right: 100px;
+}
+.carpenterphoto{
+    height: auto;
+    width:600px;
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5%;
+}
+.word9{
+    font-size: 30px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: 340px;
+    margin-left: -1900px;
+
+}
+.word10{
+    font-size: 30px;
+    color:#bea993;
+    font-family:"Playfair Display", serif;
+    margin-top: 600px; 
+    margin-left: -2200px;
+}
+
+.eatphoto{
+    height: auto;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: -1940px;
+    border-radius: 5%;
+}
+.word11{
+    font-size: 30px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: 950px;
+    margin-left: -650px;
 }
