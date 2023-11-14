@@ -1,6 +1,5 @@
 .outside {
     width: 100%;
-    border-radius: 6px;
     margin: auto;
     position: relative;
     background-color: #F8F9FA;
@@ -73,7 +72,7 @@ nav a:hover {
     color:#C9ADA7;
 }
 .horizontal-line {
-    border-top: 3px solid #D6CCC2; /* 1像素的實線，可以根據需要調整線的寬度、顏色等 */
+    border-top: 3px solid #D6CCC2; 
     margin: 10px 600;
     margin-top: 15px;
     width: 40%;
@@ -104,5 +103,93 @@ nav a:hover {
 }
 .skills{
     background-color: #D6CCC2;
-    
+    display: flex;
+    padding: 300px;
+}
+.vertical-line {
+    width: 11px; /* 设置线的宽度 */
+    height: 70px; /* 设置线的高度 */
+    background-color: #4A4E69; 
+    margin-left: -130px;
+    margin-top: -550px;
+}
+.title2{
+    font-size: 40px;
+    color:#4A4E69;
+    font-family:"Playfair Display", serif;
+    margin-top: -550px;
+    margin-left: -500px;
+    letter-spacing: 1.5px;
+}
+.title2-1{
+    font-size: 30px;
+    color:#4A4E69;
+    font-family:"Playfair Display", serif;
+    margin-top: -450px;
+    margin-left: 100px;
+}
+
+.word2{
+    font-size: 30px;
+    display: flex;
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+    margin-top: -375px;
+    margin-left: -125px;
+}
+.word3{
+    font-size: 30px;
+    display: flex;
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+    margin-top: -375px;
+    margin-left: 175px;
+}
+.word4{
+    font-size: 30px;
+    display: flex;
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+    margin-top: -375px;
+    margin-left: 200px;
+}
+.word5{
+    font-size: 30px;
+    display: flex;
+    color:#FFFFFF;
+    letter-spacing: 3px;
+    font-family: "Playfair Display", serif;
+    margin-top: -375px;
+    margin-left: 250px;
+}
+
+.title2-2{
+    font-size: 30px;
+    color:#4A4E69;
+    font-family:"Playfair Display", serif;
+    margin-top: 350px;
+    margin-left: -2550px;
+}
+.projects{
+    background-color: #F8F9FA;
+    padding: 600px;
+    display: flex;
+}
+.title3{
+    font-size: 40px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: -580px;
+    margin-left: -850px;
+    letter-spacing: 1.5px;
+}
+.vertical-line1{
+    width: 7px; /* 设置线的宽度 */
+    height: 70px; /* 设置线的高度 */
+    background-color: #D3C1AF; 
+    margin-left: -520px;
+    margin-top: -60px;
 }
