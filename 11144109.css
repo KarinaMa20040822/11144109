@@ -175,22 +175,23 @@ nav a:hover {
 }
 .projects{
     background-color: #F8F9FA;
-    padding: 600px;
+    padding-top: 600px;
     display: flex;
+    border-radius: 0;
 }
 .title3{
     font-size: 40px;
     color:#867b70;
     font-family:"Playfair Display", serif;
     margin-top: -580px;
-    margin-left: -850px;
+    margin-left: 90px;
     letter-spacing: 1.5px;
 }
 .vertical-line1{
     width: 7px; 
     height: 70px; 
     background-color: #867b70; 
-    margin-left: -520px;
+    margin-left: 75px;
     margin-top: -60px;
 }
 .about{
@@ -206,8 +207,8 @@ nav a:hover {
 .snowphoto{
     height: auto;
     width:600px;
-    margin-top: 20px;
-    margin-left: -450px;
+    margin-top: -80px;
+    margin-left: -200px;
     border-radius: 5%;
 }
 .title3-1{
@@ -215,14 +216,14 @@ nav a:hover {
     color:#867b70;
     font-family:"Playfair Display", serif;
     margin-top: 20px; 
-    margin-left: -550px; 
+    margin-left: 150px; 
 }
 .word6{
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: -430px; 
-    margin-left: -500px; 
+    margin-top: -130px; 
+    margin-left: 100px; 
 }
 .word7{
     font-size: 30px;
@@ -235,43 +236,149 @@ nav a:hover {
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: 50px; 
-    margin-right: 100px;
+    margin-top: -30px; 
+    margin-right: 200px;
 }
 .carpenterphoto{
     height: auto;
     width:600px;
-    margin-top: 20px;
-    margin-left: 0px;
+    margin-top: -280px;
+    margin-left: -650px;
     border-radius: 5%;
 }
 .word9{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: 340px;
-    margin-left: -1900px;
+    margin-top: 250px;
+    margin-left: -2350px;
 
 }
 .word10{
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: 600px; 
-    margin-left: -2200px;
+    margin-top: 400px; 
+    margin-left: -2500px;
 }
 
 .eatphoto{
     height: auto;
     width: 600px;
-    margin-top: 20px;
-    margin-left: -1940px;
+    margin-top: 70px;
+    margin-left: -2280px;
     border-radius: 5%;
 }
 .word11{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: 950px;
-    margin-left: -650px;
+    margin-top: 750px;
+    margin-left: -800px;
+    margin-right: 50px;
+}
+.experiences{
+    background-color: #F8F9FA;
+    padding: 500px;
+    display: flex;
+    border-radius: 0;
+}
+.titles4{
+    font-size: 40px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: -480px;
+    margin-left: -850px;
+    letter-spacing: 1.5px;
+}
+.vertical-line2{
+    width: 7px; 
+    height: 70px; 
+    background-color: #867b70; 
+    margin-left: -400px;
+    margin-top: -160px;
+}
+.title4{
+    font-size: 40px;
+    color:#867b70;
+    font-family:"Playfair Display", serif;
+    margin-top: -450px;
+    margin-left: -600px;
+    letter-spacing: 1.5px;
+}
+.title4_1{
+    font-size: 30px;
+    color:#bea993;
+    font-family:"Playfair Display", serif;
+    margin-top: 40px; 
+    margin-left: -330px;
+}
+.time1{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: -250px; 
+    margin-left: -550px;
+}
+.time2{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 60px; 
+    margin-left: -550px;
+}
+.time3{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 60px; 
+    margin-left: -550px;
+}
+.work1{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: -250px; 
+    margin-left: -20px;
+    text-align: left;
+}
+.work1_1{
+    font-size: 20px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 5px; 
+    margin-left: -20px;
+    text-align: left;
+}
+.work2{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 20px; 
+    margin-left: -20px;
+    text-align: left;
+}
+.work2_1{
+    font-size: 20px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 5px; 
+    margin-left: -20px;
+    text-align: left;
+}
+.work3{
+    font-size: 30px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 20px; 
+    margin-left: -20px;
+    text-align: left;
+}
+.work3_1{
+    font-size: 20px;
+    color:#D3C1AF;
+    font-family:"Playfair Display", serif;
+    margin-top: 5px; 
+    margin-left: -15px;
+    text-align: left;
 }
