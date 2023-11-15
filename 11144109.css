@@ -10,8 +10,8 @@ nav{
     text-align:center;
 }
 nav a {
-    color: inherit; /* 移除超連結顏色 */
-    text-decoration: none;  /* 移除超連結底線 */
+    color: inherit; 
+    text-decoration: none;  
     font-size: 20px;
     color: white;
     text-decoration: none;
@@ -19,7 +19,7 @@ nav a {
     letter-spacing: 1px;
 }
 nav > ul {
-    list-style: none;   /* 移除項目符號 */
+    list-style: none;   
     border-radius: 10px;
     margin: 0px;
     padding: 10px;
@@ -34,19 +34,19 @@ nav a:hover {
     justify-content: center;
 }
 .nav-flex li {
-    margin: 0; /* 清除原本的 margin */
+    margin: 0; 
     flex-grow: 0;
 }
 .inline-block-nav {
     text-align: center;
-    font-size: 2;   /* 移除 <li> 之間的空隙 */
+    font-size: 2;   
 }
 .inline-block-nav > li {
     display: inline-block;
 }
 .myphoto {
-    border-radius: 50%; /* 將圓角設置為一半的寬度和高度 */
-    overflow: hidden; /* 保證圖片在圓形區域內顯示 */
+    border-radius: 50%; 
+    overflow: hidden; 
     height: 250px;
     margin-left: 250px;
     margin-top: 65px;
@@ -107,7 +107,7 @@ nav a:hover {
     padding: 300px;
 }
 .vertical-line {
-    width: 11px;
+    width: 15px;
     height: 70px; 
     background-color: #4A4E69; 
     margin-left: -130px;
@@ -128,7 +128,115 @@ nav a:hover {
     margin-top: -450px;
     margin-left: 100px;
 }
+.skillsbar {
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
 
+.skillsbar p {
+    text-align: center;
+    padding: 10px;
+    width: 50px;
+}
+
+.skillsbar li {
+    list-style: none;
+    position: relative;
+    font-size: 18px;
+    border-radius: 30px;
+    font-family: "Playfair Display", serif;
+    margin: 48px 0;
+}
+
+.skillsbar li::before,
+.skillsbar li::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: -35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.skillsbar li::before {
+    box-shadow: 0 0 6px #D9D4CF;
+}
+
+.skillsbar li::after {
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.draw::after {
+    animation-name: draw;
+}
+
+.video::after {
+    animation-name: video;
+}
+
+.photo::after {
+    animation-name: photo;
+}
+
+.d3::after {
+    animation-name: d3;
+}
+
+@keyframes draw {
+    from {
+        width: 0%;
+        background-color: #ECECEC;
+    }
+
+    to {
+        width: 75%;
+        background-color: #504c66;
+    }
+}
+
+@keyframes video {
+    from {
+        width: 0%;
+        background-color: #ECECEC;
+    }
+
+    to {
+        width: 80%;
+        background-color: #504c66;
+    }
+}
+@keyframes photo {
+    from {
+        width: 0%;
+        background-color: #ECECEC;
+    }
+
+    to {
+        width: 95%;
+        background-color: #504c66;
+    }
+}
+
+@keyframes d3 {
+    from {
+        width: 0%;
+        background-color: #ECECEC;
+    }
+
+    to {
+        width: 50%;
+        background-color: #504c66;
+    }
+}
+.size{
+    width: 60%;
+}
 .word2{
     font-size: 30px;
     display: flex;
@@ -206,80 +314,98 @@ nav a:hover {
 }
 .snowphoto{
     height: auto;
-    width:600px;
-    margin-top: -80px;
-    margin-left: -200px;
+    width:500px;
+    margin-top: -900px;
+    margin-left: -100px;
     border-radius: 5%;
+}
+.snowphoto:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 .title3-1{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
     margin-top: 20px; 
-    margin-left: 150px; 
+    margin-left: 70px; 
+    margin-right: -220px;
 }
 .word6{
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: -130px; 
+    margin-top: 40px; 
     margin-left: 100px; 
+    margin-right: -330px;
 }
 .word7{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
     margin-top: -230px; 
-    margin-left: 300px; 
+    margin-left: 40px; 
+    margin-right: -600px;
 }
 .word8{
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: -30px; 
-    margin-right: 200px;
+    margin-top: 30px; 
+    margin-left: -320px;
+    margin-right: -600px;
 }
 .carpenterphoto{
     height: auto;
-    width:600px;
-    margin-top: -280px;
-    margin-left: -650px;
+    width:450px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: -100px;
     border-radius: 5%;
+}
+.carpenterphoto:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 .word9{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: 250px;
-    margin-left: -2350px;
-
+    margin-top: 160px;
+    margin-left: -1100px;
+    margin-right: 650px;
 }
 .word10{
     font-size: 30px;
-    color:#bea993;
+    color: #bea993;   
     font-family:"Playfair Display", serif;
-    margin-top: 400px; 
-    margin-left: -2500px;
+    margin-top: 450px; 
+    margin-left: -1750px;
+    margin-right: 300px;
 }
 
 .eatphoto{
     height: auto;
-    width: 600px;
-    margin-top: 70px;
-    margin-left: -2280px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: -1950px;
     border-radius: 5%;
+}
+.eatphoto:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 }
 .word11{
     font-size: 30px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: 750px;
-    margin-left: -800px;
-    margin-right: 50px;
+    margin-top: 650px;
+    margin-left: -700px;
+    margin-right: 150px;
 }
 .experiences{
     background-color: #F8F9FA;
-    padding: 500px;
+    padding: 250px;
     display: flex;
     border-radius: 0;
 }
@@ -287,7 +413,7 @@ nav a:hover {
     font-size: 40px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: -480px;
+    margin-top: 500px;
     margin-left: -850px;
     letter-spacing: 1.5px;
 }
@@ -295,29 +421,29 @@ nav a:hover {
     width: 7px; 
     height: 70px; 
     background-color: #867b70; 
-    margin-left: -400px;
-    margin-top: -160px;
+    margin-left: -170px;
+    margin-top:-170px;
 }
 .title4{
     font-size: 40px;
     color:#867b70;
     font-family:"Playfair Display", serif;
-    margin-top: -450px;
-    margin-left: -600px;
+    margin-top: -200px;
+    margin-left: -300px;
     letter-spacing: 1.5px;
 }
 .title4_1{
     font-size: 30px;
     color:#bea993;
     font-family:"Playfair Display", serif;
-    margin-top: 40px; 
-    margin-left: -330px;
+    margin-top: 50px; 
+    margin-left: -130px;
 }
 .time1{
     font-size: 30px;
     color:#D3C1AF;
     font-family:"Playfair Display", serif;
-    margin-top: -250px; 
+    margin-top: 0px; 
     margin-left: -550px;
 }
 .time2{
@@ -338,7 +464,7 @@ nav a:hover {
     font-size: 30px;
     color:#D3C1AF;
     font-family:"Playfair Display", serif;
-    margin-top: -250px; 
+    margin-top: 0px; 
     margin-left: -20px;
     text-align: left;
 }
@@ -381,4 +507,17 @@ nav a:hover {
     margin-top: 5px; 
     margin-left: -15px;
     text-align: left;
+}
+.right {
+    text-align: center;
+    font-weight: bold;
+    background-color: #D6CCC2;
+    padding: 0.3%;
+    color:#FFFFFF;
+
+}
+.rightph {
+    height: 10px;
+    font-family: 'Playfair Display', serif;
+    color:#FFFFFF;
 }
